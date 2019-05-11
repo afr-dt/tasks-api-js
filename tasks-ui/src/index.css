@@ -1,6 +1,7 @@
 body {
-  /* background-color: #282c34;
-  color: white; */
+  background-color: #142533;
+  /* 080C1C 029DFF 10161E */
+  color: white;
   margin: 0;
   padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -13,4 +14,8 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.navbar {
+  background-color: #233447 !important;
 }

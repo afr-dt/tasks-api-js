@@ -21,7 +21,12 @@ class ItemsBody extends Component {
   renderTasks = () => {
     return _.map(this.state.tasks, task => {
       return (
-        <ListItem key={task.id} title={task.title} isDone={task.is_done} />
+        <ListItem
+          key={task.id}
+          title={task.title}
+          isDone={task.is_done}
+          id={task.id}
+        />
       );
     });
   };
